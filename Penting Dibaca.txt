@@ -1,0 +1,30 @@
+Author Program : www.goican.id
+instagram      : https://instagram.com/goican.id
+Development by : @amriarendy90
+
+cara instalisasi di localhost
+1. Download & install localserver atau xampp dengan version php +7.0 - 7.4 https://www.apachefriends.org/download.html
+2. Download dan pindahkan aplikasi source code ke C:\xampp\htdocs
+3. buat folder nama folder (bebas)
+4. extract aplikasi source code di folder tersebut
+5. kemudian buka browser.
+6. Masukan database ke dalam phpmyadmin dengan cara ketikan dengan link localhost/phpmyadmin, buat nama database dan import database dari file aplikasi source code tadi.
+7. kemudian ketikan link dengan url localhost/nama_folder.
+8. jika terdapat error pada informasi databases. silahkan untuk merubah nama database atau username database sesuai di phpmyadmin, di aplikasi source code tersebut, lokasi pathnya application/config/database.php sesuaikan pengubahan bagian bagian ini.
+	'username' => 'root',
+	'password' => '',
+	'database' => 'siap',
+9. aplikasi siap di jalankan
+
+nb : catatan 
+url domain localhost
+Local Name Server :
+http://localhost/nama_folder
+IP Server :
+http://127.0.0.1/nama_folder
+
+url domain localhost database
+Local Name Server :
+http://localhost/phpmyadmin
+IP Server :
+http://127.0.0.1/phpmyadmin

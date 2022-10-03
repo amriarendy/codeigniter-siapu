@@ -1,0 +1,8 @@
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800"><?php echo $title ?></h1>
+    </div>
+    <h3 align="center">Tentang SIAP<br>(Sistem Informasi Administrasi dan Pelayanan)</h3>
+    <p align="center">Aplikasi ini dibuat untuk mempermudah akses layanan-layanan yang ada di Unit Teknologi Informasi dan Pangkalan Data (UTPID) diperuntukkan bagi bapak/ibu dosen atau mahasiswa melalui website aplikasi SIAP.<br></p>
+    	<p>Layanan-layanan tersebut yaitu:<br> 1) Layanan dosen: layanan email institusi, pengajuan NIDN (Nomor Induk Dosen Nasional), pengajuan NUP (Nomor Urut Pendidik), pengajuan NIDK (Nomor Induk Dosen Khusus), pengajuan perubahan data dosen pada PD Dikti, perubahan data homebase dosen internal, perubahan data homebase dosen eksternal, penggunaan ruang laboratorium komputer.<br> 2) Layanan infrastruktur: perbaikan jaringan internet/wifi, pembuatan domain website, pembuatan domain OJS, perbaikan/maintenance OJS.<br> 3) Layanan mahasiswa & alumni: ujian teknologi informasi dan komunikasi (TI), perubahan data pada PD DIKTI.<br> 4) Layanan umum, sewa sarana ruang laboratorium komputer.<br><br>Untuk persyaratan pengajuan layanan-layanan di atas, bapak/ibu atau mahasiswa dapat download file berikut: <a href="<?php echo base_url() . 'assets/file/data_file/bukupanduan.pdf' ?>">Panduan Pelayanan PTIPD</a></p>
+</div>
